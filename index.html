@@ -6,151 +6,107 @@
     <title>Nguyen Hoang Anh Thu</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <header class="navbar">
-            <nav>
-                <ul>
-                    <li><a href="#about">About me</a></li>
-                    <li class="dropdown">
-                        <a href="#projects" class="dropbtn">My Projects</a>
-                        <div class="dropdown-content">
-                            <a href="Dataclub.html">Cubebase–the Data Science Club</a>
-                            <a href="Woven.html">Woven Dreams</a>
-                            <a href="Handtohand.html">Hand in Hand - Local Charity</a>
-                            <a href="MN.html">Mầm Nắng</a>
-                        </div>
-                    </li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
 
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="personalproject.html">Personal Projects</a></li>
+            <li><a href="Myexperiences.html">Experiences</a></li>
+            <li><a href="index.html#selectedprojects">Other Projects</a></li>
+        </ul>
+    </nav>
     <div class="hero-section">
         <div class="hero-text">
             <h1>NGUYEN HOANG ANH THU</h1>
         </div>
     </div>
+
+    <header class="page-header" style="padding-top: 60px;">
+    <span class="sub-script-title" style="font-size: 6rem; margin-top: 10px;">About me</span>
+</header>
+
+<div class="about-text">
+    <p class="paragraph-indent">
+        I'm a student in Ho Chi Minh City (Vietnam). My passion is <strong>Data Science</strong> with the long-term goal of applying technology to advance education and social development. My journey has been shaped not only by research and academic projects but also by initiatives I founded, including <strong>Woven Dreams</strong>, <strong>Mầm Nắng</strong>, <strong>Cubebase - the Data Science Club</strong>, <strong>Woven Dreams</strong>, and <strong>Hand in Hand - Local Charity</strong>.
+    </p>
+    <p class="paragraph-indent">
+        Outside of academics, I enjoy <strong>photography</strong> which keeps me grounded and inspired. I value curiosity, empathy, and perseverance, qualities that shape both my personal growth and leadership style. Looking ahead, I aspire to <strong>advance education accessibility in Vietnam</strong> and beyond, using data-driven solutions to empower communities and bridge gaps in opportunity.
+    </p>
+</div>
+    <section class="split-section">
+        <div class="split-image">
+            <img src="aboutme.jpg" alt="Anh Thu Portrait" style="border-radius: 200px 200px 0 0;">
+        </div>
+        <div class="split-content">
+            <h2 class="section-heading">Education</h2>
+            <div class="job-block">
+                <h3 class="job-title">VNUHCM - High School for The Gifted</h3>
+                <p class="job-meta">2023 - 2026</p>
+                <ul class="custom-list">
+                    <li><strong>GPA:</strong> Grade 9: 9.4 | Grade 10: 9.2 | Grade 11: 9.4</li>
+                    <li><strong>SAT:</strong> 1400</li>
+                    <li><strong>IELTS:</strong> 6.5</li>
+                </ul>
+            </div>
+
+            <h2 class="section-heading">Honors & Awards</h2>
+            <ul class="custom-list">
+                <li><strong>Gold Medal</strong> | International Invention and Innovation Show INTARG 2025</li>
+                <li><strong>Silver Medal</strong> | StemCo International Math Olympiad 2025</li>
+                <li><strong>Bronze Medal</strong> | American Mathematics Olympiad 2024</li>
+                <li><strong>TOP 8</strong> | Excellent Students at District level 2023</li>
+                <li><strong>Bronze medal</strong> | | Singapore & Asian Schools Math Olympiad 2020 - 2021</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id = "selectedprojects">    
+        <div style="background-color: #f7f4ef; padding: 60px 0;">
+        <h2 class="section-heading" style="text-align: center; display: block; border: none; margin-bottom: 20px;">Selected Projects</h2>
         
+        <div class="clean-grid">
+            
+            <div class="grid-item">
+                <img src="mn1.jpg" alt="Mầm nắng">
+                <h3>Mầm Nắng</h3>
+                <p>Vice - President & Lead Photographer delivering 200+ gifts and learning materials to underprivileged students.</p>
+                <a href="MN.html" class="btn-clean">Read Details</a>
+            </div>
 
-    <section id="about" class="about-section">
-        <div class="about-container">
-            <h2 class="section-title">About Me</h2>
-                <p class="subtitle1">High school student in Informatics Class 1</p>
-                <p class="subtitle2">VNUHCM - High School for The Gifted</p>
-            <div class="about-content">
-                <div class="about-image">
-                    
-                </div>
-                <div class="about-text">
-                    <p class="paragraph-indent">I'm a student in Ho Chi Minh City (Vietnam). My passion is <strong>Data Science</strong> with the long-term goal of applying technology to advance education and social development. My journey has been shaped not only by research and academic projects but also by initiatives I founded, including <strong>Cubebase - the Data Science Club</strong>, <strong>Woven Dreams</strong>, <strong>Hand in Hand - Local Charity</strong>, and <strong>Mầm Nắng</strong>.</p>
-                    <p class="paragraph-indent">Outside of academics, I enjoy <strong>photography</strong> which keep me grounded and inspired. I value curiosity, empathy, and perseverance, qualities that shape both my personal growth and leadership style. Looking ahead, I aspire to <strong>advance education accessibility in Vietnam</strong> and beyond, using data-driven solutions to empower communities and bridge gaps in opportunity.</p>
-                    </div>
-                    </div>
+            <div class="grid-item">
+                <img src="dataimg.jpg" alt="CubeBase">
+                <h3>CubeBase Data Science</h3>
+                <p>Founder. Applied data science for social good, analyzing data from 300+ students.</p>
+                <a href="Dataclub.html" class="btn-clean">Read Details</a>
+            </div>
+
+            <div class="grid-item">
+                <img src="handimg.jpg" alt="Hand in Hand">
+                <h3>Hand in Hand Charity</h3>
+                <p>President. Organizing recurring charity events and raising $2,000+.</p>
+                <a href="Handtohand.html" class="btn-clean">Read Details</a>
+            </div>
+
         </div>
+    </div>
     </section>
 
-
-    <section class="education-section">
-        <div class="education-card">
-            <div class="education-header">
-                <div class="education-icon">🎓</div>
-                <div class="education-title">
-                    <h3>VNUHCM - High School for The Gifted</h3>
-                    <p class="education-years">2023 - 2026</p>
-                </div>
-            </div>
-            <div class="education-details">
-                <div class="gpa-row">
-                    <span class="gpa-label">Grade 9 GPA</span>
-                    <span class="gpa-value">9.4/10</span>
-                </div>
-                <div class="gpa-row">
-                    <span class="gpa-label">Grade 10 GPA</span>
-                    <span class="gpa-value">9.2/10</span>
-                </div>
-                <div class="gpa-row">
-                    <span class="gpa-label">Grade 11 GPA</span>
-                    <span class="gpa-value">9.4/10</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="achievements-section">
-        <h2 class="section-title">Academic Achievements</h2>
-        <div class="achievements-container">
-            <div class="achievement-card">
-                <div class="achievement-icon">📖</div>
-                <h3>IELTS</h3>
-                <p class="achievement-score">6.5</p>
-                <p class="achievement-subtitle">Overall Band Score</p>
-            </div>
-        
-            <div class="achievement-card">
-                <div class="achievement-icon">🎓</div>
-                <h3>SAT Score</h3>
-                <p class="achievement-score">1400</p>
-                <p class="achievement-subtitle">RW: 600 - Math: 800</p>
-            </div>
-        </div>
-        </section>
-
-
-    <section id="projects" class="projects-section">
-        <div class="projects-container">
-            <h2 class="section-title-project">Current Projects</h2>
-            <div class="project-item">
-                
-                <div class="project-details">
-                    <h3>Woven Dreams</h3>
-                    <p>1.2025 - now</p>
-                    <a href="Woven.html" class="read-more">Read more</a>
-                </div>
-            </div>
-
-            <div class="project-item">
-                
-                <div class="project-details">
-                    <h3>Cubebase - the Data Science Club</h3>
-                    <p>06.2024 - now</p>
-                    <a href="Dataclub.html" class="read-more">Read more</a>
-                </div>
-            </div>
-            <div class="project-item">
-                
-                <div class="project-details">
-                    <h3>Hand in Hand - Local Charity</h3>
-                    <p>09.2024 - now</p>
-                    <a href="Handtohand.html" class="read-more">Read more</a>
-                </div>
-            </div>
-            <div class="project-item">
-                
-                <div class="project-details">
-                    <h3>Mầm Nắng</h3>
-                    <p>08.2024 - 07.2025</p>
-                    <a href="MN.html" class="read-more">Read more</a>
-                </div>
-            </div>
-        </div>
-    </section>
-<section id="contact">
     <footer id="contact-footer">
-        <div class="contact-content-wrapper"> 
-            <div class="contact-left">
-                <p>Email: <a href="mailto:nghthu08@gmail.com">nghthu08@gmail.com</a></p>
-                <div class="social-links">
-                    <a href="https://www.facebook.com/thu.nguyenhoang.94695" target="_blank"><img src="fb-icon.png" alt="Facebook" class="social-icon"></a>
-                    <a href="https://www.linkedin.com/in/nguyen-hoanganhthu-3970b5308/" target="_blank"><img src="linkedin-icon.png" alt="LinkedIn" class="social-icon"></a>
+            <div class="contact-content-wrapper"> 
+                <div class="contact-left">
+                    <p>Email: <a href="mailto:nghthu08@gmail.com">nghthu08@gmail.com</a></p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/thu.nguyenhoang.94695" target="_blank"><img src="fb-icon.png" alt="Facebook" class="social-icon"></a>
+                        <a href="https://www.linkedin.com/in/nguyen-hoanganhthu-3970b5308/" target="_blank"><img src="linkedin-icon.png" alt="LinkedIn" class="social-icon"></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <p>"The best way to find yourself is to lose yourself in the service of others."</p>
+                    <p>&mdash; Gandhi</p>
                 </div>
             </div>
-            <div class="contact-right">
-                <p>"The best way to find yourself is to lose yourself in the service of others."</p>
-                <p>&mdash; Gandhi</p>
-            </div>
-        </div>
-    </footer>  
-</section>
+                </footer>
+
 </body>
 </html>
